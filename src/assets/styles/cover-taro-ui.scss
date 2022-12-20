@@ -1,0 +1,64 @@
+@import "./variables.scss";
+
+.at-tabs__item {
+  font-size: 28px;
+  color: $sub-font-color;
+}
+.at-tabs__item--active {
+  font-size: 32px;
+  font-weight: bold;
+  color: $main-font-color;
+}
+.at-tabs__underline {
+  background-color: transparent;
+}
+.at-tabs__item-underline {
+  width: 28px;
+  height: 4px;
+  background-color: $theme-color;
+  right: 0;
+  margin: auto;
+}
+.at-divider__content {
+  background-color: $bg-color;
+}
+.at-tabs__header {
+  width: 39%;
+}
+.at-search-bar__input-cnt {
+  border-radius: 10rpx;
+}
+.at-search-bar__action {
+  display: none !important;
+}
+.at-tabs__item--active {
+  color: $main-font-color;
+  font-size: 28px;
+}
+
+.at-tabs__item {
+  color: $sub-font-color;
+  font-size: 28px;
+}
+.at-modal__header {
+  font: {
+    size: 36px;
+    family: $main-font-family;
+    weight: 500;
+  }
+  padding: 34rpx 6rpx 0 6rpx;
+  color: $main-font-color;
+  line-height: 50px;
+}
+.at-modal__content {
+  text-align: center;
+  line-height: 50px;
+  min-height: 30px;
+}
+.at-modal__header::after {
+  border: none;
+}
+.at-modal__footer--simple .at-modal__action > button:last-child:nth-child(2) {
+  color: #e5675c;
+  font-family: $sub-font-family;
+}

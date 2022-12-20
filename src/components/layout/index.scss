@@ -1,0 +1,37 @@
+@import '../../assets/styles/variables.scss';
+
+
+$page-title-height: 100px;
+
+.layout-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.layout-page-fixed {
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  overflow: hidden;
+  position: relative;
+  background: #fcfcfc;
+
+  .layout-page-fixed-content {
+    width: 100vw;
+    flex: 1;
+    overflow: hidden;
+  }
+
+
+
+  .layout-page-fixed-bottom {
+    width: 100vw;
+  }
+
+
+
+  .display-none {
+    display: none;
+  }
+}

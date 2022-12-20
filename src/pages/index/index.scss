@@ -1,0 +1,108 @@
+@import '../../assets/styles/variables.scss';
+
+.index {
+  width: 100vw;
+  height: 100vh;
+  background-color: $bg-color;
+
+  /* 导航栏部分 */
+  .nav-bar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+  }
+
+
+
+  .nav-bar .nav-bar-content {
+    width: 100%;
+    font-size: 32px;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .title {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 28px;
+    }
+
+    .message {
+      position: relative;
+
+      .icon-xiaoxi {
+        font-size: 38px;
+        color: #333;
+      }
+
+      .num {
+        position: absolute;
+        right: -4px;
+        top: -4px;
+        font-size: 12px;
+        border-radius: 50%;
+        background-color: red;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+  }
+
+  .index-swiper {
+    width: 100%;
+    height: 320px;
+
+    image {
+      width: 100%;
+    }
+  }
+
+  .list {
+    width: 100%;
+    height: 140px;
+    background-color: #333;
+    display: flex;
+
+    .item {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: 24px;
+      color: #fff;
+
+      image {
+        width: 70px;
+        height: 70px;
+      }
+    }
+  }
+
+  .index-gird {
+    margin-top: 20px;
+    background: #fff;
+  }
+
+  .model-gird {
+    .content-inner__text {
+      font-size: 24px;
+    }
+
+    image {
+      width: 70px;
+      height: 70px;
+    }
+
+  }
+}
